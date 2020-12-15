@@ -10,6 +10,9 @@
 6. Plotting: The points were plotted geographically using a matplotlib scatterplot overlaid on a map of NYC. The color and size of each point was determined based upon how many computer science courses each school had, with larger points representing more CS courses.
 7. Final touches: A legend was added to make the data easier to understand and interpret based on the color of each plot point.
 
+### Final Product
+![Final Graph](finalData.png)
+
 ### Python File Explanation
 - gettingLatLong.py : uses the Google Maps API to geocode the list of school names from data set and adds the corresponding latitudes and longitudes to the CSV
 - getMaxLat.py : calculates the max and min of the latitudes and longitudes in order to set proper boundaries for the plot
